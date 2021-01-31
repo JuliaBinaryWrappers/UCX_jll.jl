@@ -1,18 +1,18 @@
 [[UCX]]
 arch = "powerpc64le"
-git-tree-sha1 = "e9c52c5241f8a149af4b66c0dd4fd331e28a5f68"
+git-tree-sha1 = "e0360aecf2a744452edf33ebf40ec921a897db53"
 libc = "glibc"
 os = "linux"
 
     [[UCX.download]]
-    sha256 = "07a9dc10d2fdec662e8dd030ae23122c043b6d4e6baa3be8693752288ff42afa"
-    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.7.0+1/UCX.v1.7.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "f706fb35e5f864fd743154d65f59b8cca57a926eb256da89966c27c65f375819"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.7.0+2/UCX.v1.7.0.powerpc64le-linux-gnu.tar.gz"
 [[UCX]]
 arch = "x86_64"
-git-tree-sha1 = "d5d301e5c6064c3f05e8c7a3102e940d2d35e67f"
+git-tree-sha1 = "3e7b91104bff0b800e745b2ea692742e46cb2bc1"
 libc = "glibc"
 os = "linux"
 
     [[UCX.download]]
-    sha256 = "6f53b0dd4671f562905c4397b1b3b2cf72a073e78c28c1beec8da321d7ee3f67"
-    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.7.0+1/UCX.v1.7.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "8dc31bf9be62d5f73256f5dbab5118e709a27ef2a8488129f6083913d470acd8"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.7.0+2/UCX.v1.7.0.x86_64-linux-gnu.tar.gz"

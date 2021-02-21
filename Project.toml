@@ -1,6 +1,6 @@
 name = "UCX_jll"
 uuid = "16e4e860-d6b8-5056-a518-93e88b6392ae"
-version = "1.10.0+0"
+version = "1.10.0+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"

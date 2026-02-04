@@ -1,27 +1,110 @@
 [[UCX]]
-arch = "aarch64"
-git-tree-sha1 = "8f8b33178d0045113a718c5283bc09d1d44ed2fa"
+arch = "x86_64"
+cuda = "none"
+git-tree-sha1 = "b4818cd3501f74c11f7fccd0e53437d0fd5dd427"
+lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCX.download]]
-    sha256 = "9b19b126461883f0bb565e40db574c4b61ffdb6c309ec19b4212ab70f49a8da4"
-    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.18.0+0/UCX.v1.18.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "d57ceee48f96e27c8c330e3a6429d834e49815e3225a8cfe84f0d285bb32d723"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.0+0/UCX.v1.20.0.x86_64-linux-gnu-cuda+none.tar.gz"
 [[UCX]]
-arch = "powerpc64le"
-git-tree-sha1 = "d5a477e7824376c17c2ee6425412b17da6e74ad2"
+arch = "aarch64"
+cuda = "none"
+git-tree-sha1 = "21c75a766d1d866e74cd93d41d26711f4c2e99f9"
+lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCX.download]]
-    sha256 = "0ac46d90524f40ae2c9b8d4e57f458c0f212de6aedf64d04ed550735a51d752f"
-    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.18.0+0/UCX.v1.18.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "0eb9496f3b98f51b95add35913fb73a1423c949a0b1075d2e81c2a95ed7a3e09"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.0+0/UCX.v1.20.0.aarch64-linux-gnu-cuda+none.tar.gz"
 [[UCX]]
 arch = "x86_64"
-git-tree-sha1 = "147deee9664c675769e6818f488fc6dbf9cc0b86"
+cuda = "12.2"
+git-tree-sha1 = "2cb47f33a7326f11db847acf27270492c9f6cbe0"
+lazy = true
 libc = "glibc"
 os = "linux"
 
     [[UCX.download]]
-    sha256 = "3fd5a84b695b954b32f9ca1e8974c3dfc9f84bd4b7761084841691b3edf81ac2"
-    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.18.0+0/UCX.v1.18.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "40671fcd3cb02678f91cbbc1ac6eb85bd367f1cc0eb56e0379b6e3e7f435e497"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.0+0/UCX.v1.20.0.x86_64-linux-gnu-cuda+12.2.tar.gz"
+[[UCX]]
+arch = "x86_64"
+cuda = "12.3"
+git-tree-sha1 = "cff98ab7e8bb632b1e86ae558f66760a7f59591b"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[UCX.download]]
+    sha256 = "99511217b77a836ef71fde0215ed4cc64484b13911cc1b1b9f8316d0070a5d99"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.0+0/UCX.v1.20.0.x86_64-linux-gnu-cuda+12.3.tar.gz"
+[[UCX]]
+arch = "x86_64"
+cuda = "12.4"
+git-tree-sha1 = "80820f20725025df7b8f3629d6878e85fc3daa68"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[UCX.download]]
+    sha256 = "8aeb0494ee2ca4513fcccc302f78b7504c229d8c00364fd60359dbbf1f4251f0"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.0+0/UCX.v1.20.0.x86_64-linux-gnu-cuda+12.4.tar.gz"
+[[UCX]]
+arch = "x86_64"
+cuda = "12.5"
+git-tree-sha1 = "5346d7329e65824ebee51fb4d5fe243c9adfaa22"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[UCX.download]]
+    sha256 = "5413e4239fb73fddfecfb6b2fc3d61db8ba5c40b77e37b4d90fa815999073918"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.0+0/UCX.v1.20.0.x86_64-linux-gnu-cuda+12.5.tar.gz"
+[[UCX]]
+arch = "x86_64"
+cuda = "12.6"
+git-tree-sha1 = "e7755fd0c6cb8e834bcc000ca31180573542ed7e"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[UCX.download]]
+    sha256 = "e9ee9ad711da2aaeb88a33bc62a1f170cb5f7fe6941f9c7623818b360698aa88"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.0+0/UCX.v1.20.0.x86_64-linux-gnu-cuda+12.6.tar.gz"
+[[UCX]]
+arch = "x86_64"
+cuda = "12.8"
+git-tree-sha1 = "4b74cd1658ca76d418e2d65a2f68218467e5718e"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[UCX.download]]
+    sha256 = "fa0ea3913710931158c140ad4b42a936a5299c932439930c18f875a06530b0c5"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.0+0/UCX.v1.20.0.x86_64-linux-gnu-cuda+12.8.tar.gz"
+[[UCX]]
+arch = "x86_64"
+cuda = "12.9"
+git-tree-sha1 = "f460ece0bdea6bc0e5732866227fe946eefab653"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[UCX.download]]
+    sha256 = "58a470a02988a45384727c289c31d70e75b3a63475b06295b76125cf8e1961b4"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.0+0/UCX.v1.20.0.x86_64-linux-gnu-cuda+12.9.tar.gz"
+[[UCX]]
+arch = "x86_64"
+cuda = "13.0"
+git-tree-sha1 = "1e196258cd8f2dfebe3e8db5c25f3e31f81d7c5f"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[UCX.download]]
+    sha256 = "9892538f706a1c61d68277db5b8ca1b1a81ad0acc06b92dc10589dca52c55366"
+    url = "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.0+0/UCX.v1.20.0.x86_64-linux-gnu-cuda+13.0.tar.gz"

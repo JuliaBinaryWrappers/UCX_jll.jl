@@ -5,15 +5,21 @@ using NUMA_jll
 using rdma_core_jll
 using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("UCX")
+JLLWrappers.@declare_library_product(libuct, "libuct.so.0")
 JLLWrappers.@declare_library_product(libucm, "libucm.so.0")
 JLLWrappers.@declare_library_product(libucp, "libucp.so.0")
 JLLWrappers.@declare_library_product(libucs, "libucs.so.0")
-JLLWrappers.@declare_library_product(libuct, "libuct.so.0")
 JLLWrappers.@declare_executable_product(ucx_info)
 JLLWrappers.@declare_executable_product(ucx_perftest)
 JLLWrappers.@declare_executable_product(ucx_read_profile)
 function __init__()
     JLLWrappers.@generate_init_header(NUMA_jll, rdma_core_jll, CompilerSupportLibraries_jll)
+    JLLWrappers.@init_library_product(
+        libuct,
+        "lib/libuct.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_library_product(
         libucm,
         "lib/libucm.so",
@@ -29,12 +35,6 @@ function __init__()
     JLLWrappers.@init_library_product(
         libucs,
         "lib/libucs.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libuct,
-        "lib/libuct.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
